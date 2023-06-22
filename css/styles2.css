@@ -1,0 +1,85 @@
+.footer{
+    height: 130px;
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+}
+
+.footer p {
+    font-size: 12px;
+    margin: 0;
+}
+.footerleft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0;
+    gap: 10px;
+    padding-left: 10px;
+}
+.footerright{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 50%;
+    padding: 0;
+    gap: 5px;
+    padding-right: 10px;
+}
+.navbar-brand{
+    padding: 10px;
+}
+#navbarResponsive{
+    margin-bottom: 40px;
+    align-self: center;
+}
+/* INICIO */
+
+.quehacemos{
+    font-weight: 400;
+    
+}
+
+/* VOLUNTARIOS */
+.masthead-heading{
+    padding-top: 100px;
+}
+
+/* MERENDEROS */
+.p-conoce{
+    font-weight: 600;
+}
+.merendero-box{
+    display: flex;
+}
+.merenderos{
+    max-width: 800px;
+}
+.merenderos-lista{
+    padding: 50px 0 0 0;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 978px) {
+    .footer p {
+        font-size: 10px;
+        margin: 0;
+    }
+    .merendero-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 767px) {
+    .section-inicio{
+    padding-top: 30px;
+    }
+    #mainNav{
+        position: relative;
+    }
+}
